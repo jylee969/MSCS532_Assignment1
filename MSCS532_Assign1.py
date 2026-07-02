@@ -1,5 +1,6 @@
 def insertion_sort_decreasing(arr):
     # Traverse through 1 to len(arr)
+    # This loop starts from the second element because the first element is already sorted 
     for i in range(1, len(arr)):
         key = arr[i]
         # Move elements of arr[0..i-1], that are smaller than key,
