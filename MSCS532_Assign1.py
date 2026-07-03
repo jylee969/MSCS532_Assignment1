@@ -12,6 +12,13 @@ def insertion_sort_decreasing(arr):
         arr[j + 1] = key
 
 # Example usage:
-data = [12, 11, 13, 5, 6]
-insertion_sort_decreasing(data)
-print("Sorted array in decreasing order:", data)
+# data = [12, 11, 13, 5, 6]
+# insertion_sort_decreasing(data)
+# print("Sorted array in decreasing order:", data)
+
+# Testing the function
+if __name__ == "__main__":
+    data = [15, 12, 18, 20, 8]
+    print("Original array:", data)
+    insertion_sort_decreasing(data)
+    print("Sorted array in decreasing order:", data)
